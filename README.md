@@ -1,5 +1,11 @@
 # Radar Visualization Project
 
+<p align="center">
+  <img src="radar.png" alt="Website Logo" width="150" height="150" style="border-radius: 50%; border: 2px solid #ccc;" />
+  <br>
+  <strong>Arduino Uno based mini radar project</strong>
+</p>
+
 This project creates a visually appealing radar display using Processing to visualize data from an Arduino-based radar system. It receives angle and distance data from a sensor (e.g., ultrasonic sensor with a servo) via serial communication and displays a dynamic radar interface with glowing effects, smooth animations, and an interactive HUD.
 
 ## Features
@@ -94,6 +100,8 @@ This project creates a visually appealing radar display using Processing to visu
   - Brown (GND) → GND (left side)
   - Orange (Signal) → Pin 11 (right side)
 
+## Image
+![image](radar.jpg)
 
 ## Usage
 1. Connect the Arduino to your computer via USB.
